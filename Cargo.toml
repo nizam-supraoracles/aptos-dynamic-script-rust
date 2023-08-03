@@ -1,0 +1,18 @@
+[package]
+name = "aptos-dynamic-script-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+aptos-types = { git = "https://github.com/Entropy-Foundation/aptos-core.git", rev = "389584ae8e5775c2e980419ec202c1c5b019238b" }
+aptos = { git = "https://github.com/Entropy-Foundation/aptos-core.git", rev = "389584ae8e5775c2e980419ec202c1c5b019238b" }
+aptos-sdk = { git = "https://github.com/Entropy-Foundation/aptos-core.git", rev = "389584ae8e5775c2e980419ec202c1c5b019238b" }
+
+anyhow = "1.0.71"
+tokio = "1.28.2"
+reqwest = "0.11.18"
+hex = "0.4.3"
+tiny-keccak = "2.0.2"
+ed25519-dalek = "1.0.1"
